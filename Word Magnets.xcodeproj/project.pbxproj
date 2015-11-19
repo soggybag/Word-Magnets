@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB1A98F1ADCCA3400699EB3 /* Alien_64_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB1A98E1ADCCA3400699EB3 /* Alien_64_1.png */; };
 		7BEFF6BB1AD79B050025CC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFF6BA1AD79B050025CC95 /* AppDelegate.swift */; };
 		7BEFF6BD1AD79B050025CC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEFF6BC1AD79B050025CC95 /* ViewController.swift */; };
 		7BEFF6C01AD79B060025CC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFF6BE1AD79B060025CC95 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BB1A98E1ADCCA3400699EB3 /* Alien_64_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alien_64_1.png; sourceTree = "<group>"; };
 		7BEFF6B51AD79B050025CC95 /* Word Magnets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Magnets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEFF6B91AD79B050025CC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BEFF6BA1AD79B050025CC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				7BEFF6B71AD79B050025CC95 /* Word Magnets */,
 				7BEFF6CD1AD79B060025CC95 /* Word MagnetsTests */,
 				7BEFF6B61AD79B050025CC95 /* Products */,
+				7BB1A98E1ADCCA3400699EB3 /* Alien_64_1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +159,8 @@
 		7BEFF6AD1AD79B050025CC95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "mitchell hudson";
 				TargetAttributes = {
@@ -195,6 +200,7 @@
 				7BEFF6C01AD79B060025CC95 /* Main.storyboard in Resources */,
 				7BEFF6C51AD79B060025CC95 /* LaunchScreen.xib in Resources */,
 				7BEFF6C21AD79B060025CC95 /* Images.xcassets in Resources */,
+				7BB1A98F1ADCCA3400699EB3 /* Alien_64_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +413,7 @@
 				7BEFF6D61AD79B060025CC95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BEFF6D71AD79B060025CC95 /* Build configuration list for PBXNativeTarget "Word MagnetsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				7BEFF6D91AD79B060025CC95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
